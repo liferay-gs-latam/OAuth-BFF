@@ -1,0 +1,50 @@
+{
+  "name": "OAuthToken",
+  "label": {
+    "en_US": "OAuth Token"
+  },
+  "objectFields": [
+    {
+      "name": "providerKey",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ownerType",
+      "type": "Picklist",
+      "required": true,
+      "listTypeDefinitionExternalReferenceCode": "oauthOwnerType"
+    },
+    {
+      "name": "ownerId",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "accessToken",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "refreshToken",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "scope",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "expiresAt",
+      "type": "Long",
+      "required": false
+    }
+  ,
+    {
+      "name": "reuseEnabled",
+      "type": "Boolean",
+      "required": false
+    }
+  ]
+}

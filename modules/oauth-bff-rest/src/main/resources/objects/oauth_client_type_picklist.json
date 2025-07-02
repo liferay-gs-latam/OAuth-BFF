@@ -1,0 +1,33 @@
+{
+  "externalReferenceCode": "oauthClientType",
+  "name": "OAuth Client Type",
+  "name_i18n": {
+    "en_US": "OAuth Client Type"
+  },
+  "listTypeEntries": [
+    {
+      "externalReferenceCode": "clientCredentials",
+      "key": "clientCredentials",
+      "name": "Client Credentials",
+      "name_i18n": {
+        "en_US": "Client Credentials"
+      }
+    },
+    {
+      "externalReferenceCode": "authorizationCode",
+      "key": "authorizationCode",
+      "name": "Authorization Code",
+      "name_i18n": {
+        "en_US": "Authorization Code"
+      }
+    },
+    {
+      "externalReferenceCode": "oidcSession",
+      "key": "oidcSession",
+      "name": "OIDC Session",
+      "name_i18n": {
+        "en_US": "OIDC Session"
+      }
+    }
+  ]
+}

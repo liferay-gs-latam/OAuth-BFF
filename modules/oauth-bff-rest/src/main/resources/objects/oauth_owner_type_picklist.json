@@ -1,0 +1,41 @@
+{
+  "externalReferenceCode": "oauthOwnerType",
+  "name": "OAuth Token Owner Type",
+  "name_i18n": {
+    "en_US": "OAuth Token Owner Type"
+  },
+  "listTypeEntries": [
+    {
+      "externalReferenceCode": "application",
+      "key": "application",
+      "name": "Application",
+      "name_i18n": {
+        "en_US": "Application"
+      }
+    },
+    {
+      "externalReferenceCode": "user",
+      "key": "user",
+      "name": "User",
+      "name_i18n": {
+        "en_US": "User"
+      }
+    },
+    {
+      "externalReferenceCode": "session",
+      "key": "session",
+      "name": "Session",
+      "name_i18n": {
+        "en_US": "Session"
+      }
+    },
+    {
+      "externalReferenceCode": "oidcSession",
+      "key": "oidcSession",
+      "name": "OIDC Session",
+      "name_i18n": {
+        "en_US": "OIDC Session"
+      }
+    }
+  ]
+}

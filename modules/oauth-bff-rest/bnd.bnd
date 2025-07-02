@@ -1,0 +1,3 @@
+Bundle-Name: OAuth BFF REST
+Bundle-SymbolicName: com.liferay.oauth.bff
+Bundle-Version: 1.0.0

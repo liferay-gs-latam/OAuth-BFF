@@ -1,0 +1,74 @@
+{
+  "name": "OAuthClient",
+  "label": {
+    "en_US": "OAuth Client"
+  },
+  "objectFields": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "baseURL",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "alias",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "type",
+      "type": "Picklist",
+      "required": true,
+      "listTypeDefinitionExternalReferenceCode": "oauthClientType"
+    },
+    {
+      "name": "clientId",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "clientSecret",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "authEndpoint",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "tokenEndpoint",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "redirectUri",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "scopes",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "allowedEndpoints",
+      "type": "LongText",
+      "required": true
+    },
+    {
+      "name": "tokenReuseEnabled",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "enabled",
+      "type": "Boolean",
+      "required": true
+    }
+  ]
+}
