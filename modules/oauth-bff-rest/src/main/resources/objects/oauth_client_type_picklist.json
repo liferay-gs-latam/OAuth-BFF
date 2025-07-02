@@ -28,6 +28,14 @@
       "name_i18n": {
         "en_US": "OIDC Session"
       }
+    },
+    {
+      "externalReferenceCode": "basicAuth",
+      "key": "basicAuth",
+      "name": "Basic Authentication",
+      "name_i18n": {
+        "en_US": "Basic Authentication"
+      }
     }
   ]
 }
